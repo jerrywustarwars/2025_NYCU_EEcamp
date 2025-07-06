@@ -199,10 +199,12 @@ int main() {
     // 隨 機 放 置 能 量 球
     for (int p = 0; p < powerNum; p++) {
         int x, y;
-        do {
+        x = rand() % HEIGHT;  // 隨 機 列
+        y = rand() % WIDTH;  // 隨 機 行
+        while (/*question 9*/){ // 確 保 能 量 球 放 原 本 是 點 數 的 位 置 上
             x = rand() % HEIGHT;  // 隨 機 列
             y = rand() % WIDTH;  // 隨 機 行
-        } while (/*question 9*/);
+        }
         initGrid[x][y] = '*';  // 放 置 能 量 球
     }
 

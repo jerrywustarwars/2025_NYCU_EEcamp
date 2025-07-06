@@ -1,5 +1,5 @@
 # NYCU_EECapm_2025
-# EEcamp_5.5.1
+# EEcamp_6.28.1
 
 ## Contents
 - **main.cpp**: 請您完成這個檔案
